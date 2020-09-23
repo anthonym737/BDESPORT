@@ -1,0 +1,137 @@
+body {
+    background-color:#A580E5;
+    
+}
+
+
+.bandeau{
+    background-color: #7D33FF;
+    width: 1900px;
+    height:80px;
+    margin-top: -10px;
+    margin-left: -6px;
+    display: grid;
+
+
+}
+
+.bde{
+    
+    width: 1600px;
+    height:40px;
+    margin-left: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(5px, auto);
+}
+
+#logo{
+
+    width: 200px;
+    height:80px;
+}
+.logo{
+
+    width: 200px;
+    height:30px;
+}
+
+.bouton {
+    border: none;
+    background-color: #7D33FF;
+    width: 150px;
+    height:80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    grid-column:  1 / 1;
+    grid-row: 1 / 1;
+    color: seashell;
+
+}
+
+.boutons{
+ margin-top:-30px ;
+ margin-left: 200px;
+}
+
+.plateforme{
+    background-color: #002F46;
+    width: 1900px;
+    height:40px;
+}
+
+
+
+
+.news{
+    background-color:#A580E5;
+    width: 1300px;
+    height:610px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+
+
+
+
+.imgtheme{
+    
+    width: 900px;
+    height:600px;
+    margin-left: 490px;
+    margin-top: -600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    
+    grid-auto-rows: minmax(5px, auto);
+}
+
+
+.cate2{
+
+    grid-column:  1 / 2;
+    grid-row: 1 / 2;
+    font-size: 24px;
+
+}
+
+
+.cate3{
+
+    grid-column:  2 / 2;
+    grid-row: 1 / 2;
+    font-size: 24px;
+
+}
+
+
+.cate4{
+
+    grid-column:  1 / 2;
+    grid-row: 2 / 2;
+    font-size: 24px;
+
+}
+
+.cate5{
+
+    grid-column:  2 / 2;
+    grid-row: 2 / 2;
+    font-size: 24px;
+
+}
+
+#cate5{
+    font-size: 24px;
+}
+
+.ecriture{
+    font-size: 32px;
+    color:white;
+}
